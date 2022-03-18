@@ -1,0 +1,43 @@
+:root {
+  --color-brand--1: #1e2027;
+  --color-brand--2: #292c35;
+  --color-brand--3: #caccd6;
+}
+
+/** Alfarn Regular font **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  display: grid;
+  font-family: 'Rosario', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6rem 6rem 0 6rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px -8px 29px 0px;
+  padding: 20px 5%;
+  height: 20px;
+  background-color: #f0fcff;
+}
+
+.grid-container {
+  margin: 0 6rem 6rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 24px 48px;
+  height: 40rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem 0 0 0;
+}
