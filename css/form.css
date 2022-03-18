@@ -135,9 +135,7 @@ input:checked ~ label {
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
-/* .type-animation.animating:after {
-  animation: cursor 320ms 7.5 ease-in-out;
-} */
+
 @keyframes cursor {
   0%,
   100% {
