@@ -1,6 +1,7 @@
 # EatNRank
 
 > Rank your taste
+> https://eatnrank.netlify.app/
 
 ## ![Project Image](/logos/readme%20.png)
 
